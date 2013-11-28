@@ -184,7 +184,9 @@ int main(void)
 
   	LCD_ClearLine(LINE(4));
   	Demo_LCD_Clear();
-
+  
+        
+        
 
   	if(ImageFormat == BMP_QQVGA)
   	{
