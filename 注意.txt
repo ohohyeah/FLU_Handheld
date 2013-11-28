@@ -1,0 +1,2 @@
+RAM: 
+Start:0x10000000 End:0x10004FFF   size 0x5000

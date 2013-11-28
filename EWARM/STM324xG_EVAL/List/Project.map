@@ -1,0 +1,729 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V6.70.1.5641/W32 for ARM               27/Nov/2013  19:18:53 #
+# Copyright 2007-2013 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°å #
+#                    Ô´Âë\stm32f4_extboard_periph_examples\Project\STM32F4xx_ #
+#                    StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_EVAL\Exe\Proj #
+#                    ect.out                                                  #
+#    Map file     =  D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°å #
+#                    Ô´Âë\stm32f4_extboard_periph_examples\Project\STM32F4xx_ #
+#                    StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_EVAL\List\Pro #
+#                    ject.map                                                 #
+#    Command line =  D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°å #
+#                    Ô´Âë\stm32f4_extboard_periph_examples\Project\STM32F4xx_ #
+#                    StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_EVAL\Obj\came #
+#                    ra_api.o D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨Òµ{ #
+#                    §Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_examples\Project\S #
+#                    TM32F4xx_StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_EVAL #
+#                    \Obj\dcmi_ov9655.o D:\IAR6.5\arm\examples\ST\STM32F4\¶}µ #
+#                    oª©\¥Ü¨Òµ{§Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_examples #
+#                    \Project\STM32F4xx_StdPeriph_Templates_DCMI_v1\EWARM\STM #
+#                    324xG_EVAL\Obj\dcmi_ov9712.o                             #
+#                    D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°å #
+#                    Ô´Âë\stm32f4_extboard_periph_examples\Project\STM32F4xx_ #
+#                    StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_EVAL\Obj\lcd_ #
+#                    log.o D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨Òµ{§Ç\ #
+#                    À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_examples\Project\STM3 #
+#                    2F4xx_StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_EVAL\Ob #
+#                    j\main.o D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨Òµ{ #
+#                    §Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_examples\Project\S #
+#                    TM32F4xx_StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_EVAL #
+#                    \Obj\misc.o D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨ #
+#                    Òµ{§Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_examples\Projec #
+#                    t\STM32F4xx_StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_E #
+#                    VAL\Obj\startup_stm32f4xx.o                              #
+#                    D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°å #
+#                    Ô´Âë\stm32f4_extboard_periph_examples\Project\STM32F4xx_ #
+#                    StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_EVAL\Obj\stm3 #
+#                    24xg_eval.o D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨ #
+#                    Òµ{§Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_examples\Projec #
+#                    t\STM32F4xx_StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_E #
+#                    VAL\Obj\stm324xg_eval_fsmc_sram.o                        #
+#                    D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°å #
+#                    Ô´Âë\stm32f4_extboard_periph_examples\Project\STM32F4xx_ #
+#                    StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_EVAL\Obj\stm3 #
+#                    24xg_eval_ioe.o D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª© #
+#                    \¥Ü¨Òµ{§Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_examples\Pr #
+#                    oject\STM32F4xx_StdPeriph_Templates_DCMI_v1\EWARM\STM324 #
+#                    xG_EVAL\Obj\stm324xg_eval_lcd.o                          #
+#                    D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°å #
+#                    Ô´Âë\stm32f4_extboard_periph_examples\Project\STM32F4xx_ #
+#                    StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_EVAL\Obj\stm3 #
+#                    24xg_eval_tsc.o D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª© #
+#                    \¥Ü¨Òµ{§Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_examples\Pr #
+#                    oject\STM32F4xx_StdPeriph_Templates_DCMI_v1\EWARM\STM324 #
+#                    xG_EVAL\Obj\stm32f4_discovery_lis302dl.o                 #
+#                    D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°å #
+#                    Ô´Âë\stm32f4_extboard_periph_examples\Project\STM32F4xx_ #
+#                    StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_EVAL\Obj\stm3 #
+#                    2f4xx_adc.o D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨ #
+#                    Òµ{§Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_examples\Projec #
+#                    t\STM32F4xx_StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_E #
+#                    VAL\Obj\stm32f4xx_can.o D:\IAR6.5\arm\examples\ST\STM32F #
+#                    4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_exa #
+#                    mples\Project\STM32F4xx_StdPeriph_Templates_DCMI_v1\EWAR #
+#                    M\STM324xG_EVAL\Obj\stm32f4xx_crc.o                      #
+#                    D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°å #
+#                    Ô´Âë\stm32f4_extboard_periph_examples\Project\STM32F4xx_ #
+#                    StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_EVAL\Obj\stm3 #
+#                    2f4xx_cryp.o D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü #
+#                    ¨Òµ{§Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_examples\Proje #
+#                    ct\STM32F4xx_StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_ #
+#                    EVAL\Obj\stm32f4xx_cryp_aes.o                            #
+#                    D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°å #
+#                    Ô´Âë\stm32f4_extboard_periph_examples\Project\STM32F4xx_ #
+#                    StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_EVAL\Obj\stm3 #
+#                    2f4xx_cryp_des.o D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª #
+#                    ©\¥Ü¨Òµ{§Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_examples\P #
+#                    roject\STM32F4xx_StdPeriph_Templates_DCMI_v1\EWARM\STM32 #
+#                    4xG_EVAL\Obj\stm32f4xx_cryp_tdes.o                       #
+#                    D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°å #
+#                    Ô´Âë\stm32f4_extboard_periph_examples\Project\STM32F4xx_ #
+#                    StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_EVAL\Obj\stm3 #
+#                    2f4xx_dac.o D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨ #
+#                    Òµ{§Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_examples\Projec #
+#                    t\STM32F4xx_StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_E #
+#                    VAL\Obj\stm32f4xx_dbgmcu.o D:\IAR6.5\arm\examples\ST\STM #
+#                    32F4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_ #
+#                    examples\Project\STM32F4xx_StdPeriph_Templates_DCMI_v1\E #
+#                    WARM\STM324xG_EVAL\Obj\stm32f4xx_dcmi.o                  #
+#                    D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°å #
+#                    Ô´Âë\stm32f4_extboard_periph_examples\Project\STM32F4xx_ #
+#                    StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_EVAL\Obj\stm3 #
+#                    2f4xx_dma.o D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨ #
+#                    Òµ{§Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_examples\Projec #
+#                    t\STM32F4xx_StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_E #
+#                    VAL\Obj\stm32f4xx_exti.o D:\IAR6.5\arm\examples\ST\STM32 #
+#                    F4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_ex #
+#                    amples\Project\STM32F4xx_StdPeriph_Templates_DCMI_v1\EWA #
+#                    RM\STM324xG_EVAL\Obj\stm32f4xx_flash.o                   #
+#                    D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°å #
+#                    Ô´Âë\stm32f4_extboard_periph_examples\Project\STM32F4xx_ #
+#                    StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_EVAL\Obj\stm3 #
+#                    2f4xx_fsmc.o D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü #
+#                    ¨Òµ{§Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_examples\Proje #
+#                    ct\STM32F4xx_StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_ #
+#                    EVAL\Obj\stm32f4xx_gpio.o D:\IAR6.5\arm\examples\ST\STM3 #
+#                    2F4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_e #
+#                    xamples\Project\STM32F4xx_StdPeriph_Templates_DCMI_v1\EW #
+#                    ARM\STM324xG_EVAL\Obj\stm32f4xx_hash.o                   #
+#                    D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°å #
+#                    Ô´Âë\stm32f4_extboard_periph_examples\Project\STM32F4xx_ #
+#                    StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_EVAL\Obj\stm3 #
+#                    2f4xx_hash_md5.o D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª #
+#                    ©\¥Ü¨Òµ{§Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_examples\P #
+#                    roject\STM32F4xx_StdPeriph_Templates_DCMI_v1\EWARM\STM32 #
+#                    4xG_EVAL\Obj\stm32f4xx_hash_sha1.o                       #
+#                    D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°å #
+#                    Ô´Âë\stm32f4_extboard_periph_examples\Project\STM32F4xx_ #
+#                    StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_EVAL\Obj\stm3 #
+#                    2f4xx_i2c.o D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨ #
+#                    Òµ{§Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_examples\Projec #
+#                    t\STM32F4xx_StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_E #
+#                    VAL\Obj\stm32f4xx_it.o D:\IAR6.5\arm\examples\ST\STM32F4 #
+#                    \¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_exam #
+#                    ples\Project\STM32F4xx_StdPeriph_Templates_DCMI_v1\EWARM #
+#                    \STM324xG_EVAL\Obj\stm32f4xx_iwdg.o                      #
+#                    D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°å #
+#                    Ô´Âë\stm32f4_extboard_periph_examples\Project\STM32F4xx_ #
+#                    StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_EVAL\Obj\stm3 #
+#                    2f4xx_pwr.o D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨ #
+#                    Òµ{§Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_examples\Projec #
+#                    t\STM32F4xx_StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_E #
+#                    VAL\Obj\stm32f4xx_rcc.o D:\IAR6.5\arm\examples\ST\STM32F #
+#                    4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_exa #
+#                    mples\Project\STM32F4xx_StdPeriph_Templates_DCMI_v1\EWAR #
+#                    M\STM324xG_EVAL\Obj\stm32f4xx_rng.o                      #
+#                    D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°å #
+#                    Ô´Âë\stm32f4_extboard_periph_examples\Project\STM32F4xx_ #
+#                    StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_EVAL\Obj\stm3 #
+#                    2f4xx_rtc.o D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨ #
+#                    Òµ{§Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_examples\Projec #
+#                    t\STM32F4xx_StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_E #
+#                    VAL\Obj\stm32f4xx_sdio.o D:\IAR6.5\arm\examples\ST\STM32 #
+#                    F4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_ex #
+#                    amples\Project\STM32F4xx_StdPeriph_Templates_DCMI_v1\EWA #
+#                    RM\STM324xG_EVAL\Obj\stm32f4xx_spi.o                     #
+#                    D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°å #
+#                    Ô´Âë\stm32f4_extboard_periph_examples\Project\STM32F4xx_ #
+#                    StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_EVAL\Obj\stm3 #
+#                    2f4xx_syscfg.o D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\ #
+#                    ¥Ü¨Òµ{§Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_examples\Pro #
+#                    ject\STM32F4xx_StdPeriph_Templates_DCMI_v1\EWARM\STM324x #
+#                    G_EVAL\Obj\stm32f4xx_tim.o D:\IAR6.5\arm\examples\ST\STM #
+#                    32F4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_ #
+#                    examples\Project\STM32F4xx_StdPeriph_Templates_DCMI_v1\E #
+#                    WARM\STM324xG_EVAL\Obj\stm32f4xx_usart.o                 #
+#                    D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°å #
+#                    Ô´Âë\stm32f4_extboard_periph_examples\Project\STM32F4xx_ #
+#                    StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_EVAL\Obj\stm3 #
+#                    2f4xx_wwdg.o D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü #
+#                    ¨Òµ{§Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_examples\Proje #
+#                    ct\STM32F4xx_StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_ #
+#                    EVAL\Obj\system_stm32f4xx.o --redirect                   #
+#                    _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall -o    #
+#                    D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°å #
+#                    Ô´Âë\stm32f4_extboard_periph_examples\Project\STM32F4xx_ #
+#                    StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_EVAL\Exe\Proj #
+#                    ect.out --map D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥ #
+#                    Ü¨Òµ{§Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_examples\Proj #
+#                    ect\STM32F4xx_StdPeriph_Templates_DCMI_v1\EWARM\STM324xG #
+#                    _EVAL\List\Project.map --config                          #
+#                    D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°å #
+#                    Ô´Âë\stm32f4_extboard_periph_examples\Project\STM32F4xx_ #
+#                    StdPeriph_Templates_DCMI_v1\EWARM\stm32f4xx_flash.icf    #
+#                    --semihosting --entry __iar_program_start --vfe          #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor                     = *
+__Heap_Handler                = Basic
+__SystemLibrary               = DLib
+__dlib_dynamic_initialization = normal
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x080fffff] { ro };
+"P2":  place in [from 0x10000000 to 0x10004fff] { rw, block CSTACK, block HEAP };
+
+  Section             Kind        Address    Size  Object
+  -------             ----        -------    ----  ------
+"A1":                                       0x188
+  .intvec             ro code  0x08000000   0x188  startup_stm32f4xx.o [1]
+                             - 0x08000188   0x188
+
+"P1":                                      0x5c98
+  .rodata             const    0x08000188  0x23d0  stm324xg_eval_lcd.o [1]
+  .text               ro code  0x08002558   0x7b4  stm324xg_eval_lcd.o [1]
+  .text               ro code  0x08002d0c    0x9c  stm32f4xx_gpio.o [1]
+  .text               ro code  0x08002da8   0x12c  stm32f4xx_rcc.o [1]
+  .text               ro code  0x08002ed4    0xd8  stm32f4xx_fsmc.o [1]
+  .text               ro code  0x08002fac   0x7a0  xprintfsmall.o [3]
+  .text               ro code  0x0800374c    0x20  xmbtowc.o [3]
+  .text               ro code  0x0800376c    0x16  strchr.o [5]
+  .text               ro code  0x08003782    0x22  zero_init3.o [5]
+  .text               ro code  0x080037a4    0x36  strlen.o [5]
+  .text               ro code  0x080037da     0xa  xsprout.o [3]
+  .text               ro code  0x080037e4    0x58  memchr.o [5]
+  .text               ro code  0x0800383c     0xa  xmbcurmax.o [3]
+  .text               ro code  0x08003848    0xb0  xxmemxmalloc.o [3]
+  .text               ro code  0x080038f8    0x1a  xwctomb.o [3]
+  .text               ro code  0x08003914    0x76  ABImemcpy_unaligned.o [5]
+  .text               ro code  0x0800398c    0x80  xxmemxfree.o [3]
+  .text               ro code  0x08003a0c    0x14  setlocale.o [3]
+  .text               ro code  0x08003a20    0x60  xencoding_sb.o [3]
+  .text               ro code  0x08003a80    0x2c  xgetmemchunk.o [3]
+  .text               ro code  0x08003aac     0x2  xtls.o [3]
+  .text               ro code  0x08003ab0   0x6c8  main.o [1]
+  .text               ro code  0x08004178   0x1fc  stm32f4_discovery_lis302dl.o [1]
+  .text               ro code  0x08004374   0x1fc  stm324xg_eval_tsc.o [1]
+  .text               ro code  0x08004570    0x94  stm324xg_eval.o [1]
+  .text               ro code  0x08004604    0xec  lcd_log.o [1]
+  .text               ro code  0x080046f0   0x494  dcmi_ov9712.o [1]
+  .text               ro code  0x08004b84    0x34  sprintf.o [3]
+  .text               ro code  0x08004bb8    0x74  camera_api.o [1]
+  .text               ro code  0x08004c2c    0x7c  stm32f4xx_dcmi.o [1]
+  .text               ro code  0x08004ca8   0x132  stm32f4xx_flash.o [1]
+  .text               ro code  0x08004ddc    0xac  dcmi_ov9655.o [1]
+  .text               ro code  0x08004e88   0x22c  stm32f4xx_dma.o [1]
+  .text               ro code  0x080050b4   0x114  stm32f4xx_adc.o [1]
+  .text               ro code  0x080051c8    0xc6  stm32f4xx_spi.o [1]
+  .text               ro code  0x08005290    0x3a  ABImemset48.o [5]
+  .text               ro code  0x080052cc   0x19c  stm32f4xx_i2c.o [1]
+  .text               ro code  0x08005468    0x78  misc.o [1]
+  .text               ro code  0x080054e0   0x1cc  lz77_init.o [5]
+  .text               ro code  0x080056ac     0x6  abort.o [3]
+  .text               ro code  0x080056b4    0x14  exit.o [6]
+  .text               ro code  0x080056c8   0x124  stm32f4xx_it.o [1]
+  .text               ro code  0x080057ec   0x124  system_stm32f4xx.o [1]
+  .rodata             const    0x08005910    0x30  camera_api.o [1]
+  .text               ro code  0x08005940    0x28  data_init.o [5]
+  .iar.init_table     const    0x08005968    0x2c  - Linker created -
+  .text               ro code  0x08005994    0x1a  fpinit_M.o [4]
+  .text               ro code  0x080059b0    0x1a  cmain.o [5]
+  .text               ro code  0x080059ca     0x4  low_level_init.o [3]
+  .text               ro code  0x080059ce     0x4  exit.o [3]
+  .text               ro code  0x080059d4     0xa  cexit.o [5]
+  .text               ro code  0x080059e0    0x10  startup_stm32f4xx.o [1]
+  .text               ro code  0x080059f0     0xc  cstartup_M.o [5]
+  .text               ro code  0x080059fc     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a00     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a04     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a08     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a0c     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a10     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a14     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a18     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a1c     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a20     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a24     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a28     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a2c     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a30     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a34     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a38     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a3c     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a40     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a44     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a48     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a4c     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a50     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a54     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a58     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a5c     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a60     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a64     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a68     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a6c     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a70     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a74     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a78     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a7c     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a80     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a84     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a88     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a8c     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a90     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a94     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a98     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005a9c     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005aa0     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005aa4     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005aa8     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005aac     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005ab0     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005ab4     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005ab8     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005abc     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005ac0     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005ac4     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005ac8     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005acc     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005ad0     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005ad4     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005ad8     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005adc     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005ae0     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005ae4     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005ae8     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005aec     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005af0     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005af4     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005af8     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005afc     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005b00     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005b04     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005b08     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005b0c     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005b10     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005b14     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005b18     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005b1c     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005b20     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005b24     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005b28     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005b2c     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005b30     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005b34     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005b38     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005b3c     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005b40     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005b44     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005b48     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005b4c     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005b50     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005b54     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005b58     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005b5c     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005b60     0x4  startup_stm32f4xx.o [1]
+  .text               ro code  0x08005b64     0x4  startup_stm32f4xx.o [1]
+  .rodata             const    0x08005b68     0x0  zero_init3.o [5]
+  .rodata             const    0x08005b68     0x0  lz77_init.o [5]
+  Initializer bytes   ro data  0x08005b68   0x2b5  <for P2 s0>
+                             - 0x08005e1d  0x5c95
+
+"P2", part 1 of 3:                          0x504
+  P2 s0                        0x10000000   0x504  <Init block>
+    .data             inited   0x10000000   0x1f4  stm324xg_eval_lcd.o [1]
+    .data             inited   0x100001f4   0x130  dcmi_ov9712.o [1]
+    .data             inited   0x10000324   0x130  dcmi_ov9712.o [1]
+    __DLIB_PERTHREAD  inited   0x10000454    0x74  setlocale.o [3]
+    .data             inited   0x100004c8    0x10  stm324xg_eval.o [1]
+    .data             inited   0x100004d8    0x10  stm32f4xx_rcc.o [1]
+    .data             inited   0x100004e8     0x8  camera_api.o [1]
+    .data             inited   0x100004f0     0x8  stm324xg_eval_lcd.o [1]
+    .data             inited   0x100004f8     0x8  stm324xg_eval_lcd.o [1]
+    .data             inited   0x10000500     0x4  stm32f4_discovery_lis302dl.o [1]
+                             - 0x10000504   0x504
+
+"P2", part 2 of 3:                           0x5c
+  .bss                zero     0x10000504    0x48  main.o [1]
+  .bss                zero     0x1000054c     0x8  xxmemxmalloc.o [3]
+  .bss                zero     0x10000554     0x4  camera_api.o [1]
+  .bss                zero     0x10000558     0x4  xgetmemchunk.o [3]
+  .bss                zero     0x1000055c     0x2  camera_api.o [1]
+  .bss                zero     0x1000055e     0x1  camera_api.o [1]
+                             - 0x1000055f    0x5b
+
+"P2", part 3 of 3:                          0x600
+  CSTACK                       0x10000560   0x400  <Block>
+    CSTACK            uninit   0x10000560   0x400  <Block tail>
+  HEAP                         0x10000960   0x200  <Block>
+    HEAP              uninit   0x10000960   0x200  <Block tail>
+                             - 0x10000b60   0x600
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x5b:
+          0x10000504   0x5b
+
+Copy/lz77 (__iar_lz77_init3)
+    1 source range, total size 0x2b5 (53% of destination):
+          0x08005b68  0x2b5
+    1 destination range, total size 0x504:
+          0x10000000  0x504
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                        ro code  ro data  rw data
+    ------                        -------  -------  -------
+D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_examples\Project\STM32F4xx_StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_EVAL\Obj: [1]
+    camera_api.o                      116       53       15
+    dcmi_ov9655.o                     172
+    dcmi_ov9712.o                   1 172      329      608
+    lcd_log.o                         236
+    main.o                          1 736                72
+    misc.o                            120
+    startup_stm32f4xx.o               772
+    stm324xg_eval.o                   148        9       16
+    stm324xg_eval_lcd.o             1 972    9 445      516
+    stm324xg_eval_tsc.o               508
+    stm32f4_discovery_lis302dl.o      508        3        4
+    stm32f4xx_adc.o                   276
+    stm32f4xx_dcmi.o                  124
+    stm32f4xx_dma.o                   556
+    stm32f4xx_flash.o                 306
+    stm32f4xx_fsmc.o                  216
+    stm32f4xx_gpio.o                  156
+    stm32f4xx_i2c.o                   412
+    stm32f4xx_it.o                    292
+    stm32f4xx_rcc.o                   300        8       16
+    stm32f4xx_spi.o                   198
+    system_stm32f4xx.o                292
+    -------------------------------------------------------
+    Total:                         10 588    9 847    1 247
+
+command line: [2]
+    -------------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    abort.o                             6
+    exit.o                              4
+    low_level_init.o                    4
+    setlocale.o                        20       62      116
+    sprintf.o                          52
+    xencoding_sb.o                     96
+    xgetmemchunk.o                     44                 4
+    xmbcurmax.o                        10
+    xmbtowc.o                          32
+    xprintfsmall.o                  1 952
+    xsprout.o                          10
+    xtls.o                              2
+    xwctomb.o                          26
+    xxmemxfree.o                      128
+    xxmemxmalloc.o                    176                 8
+    -------------------------------------------------------
+    Total:                          2 562       62      128
+
+m7M_tlv.a: [4]
+    fpinit_M.o                         26
+    -------------------------------------------------------
+    Total:                             26
+
+rt7M_tl.a: [5]
+    ABImemcpy_unaligned.o             118
+    ABImemset48.o                      58
+    cexit.o                            10
+    cmain.o                            26
+    cstartup_M.o                       12
+    data_init.o                        40
+    lz77_init.o                       460
+    memchr.o                           88
+    strchr.o                           22
+    strlen.o                           54
+    zero_init3.o                       34
+    -------------------------------------------------------
+    Total:                            922
+
+shb_l.a: [6]
+    exit.o                             20
+    -------------------------------------------------------
+    Total:                             20
+
+    Gaps                               22
+    Linker created                              44    1 536
+-----------------------------------------------------------
+    Grand Total:                   14 140    9 953    2 911
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+?main                   0x080059b1          Code  Gb  cmain.o [5]
+ADC_Cmd                 0x08005125    0x12  Code  Gb  stm32f4xx_adc.o [1]
+ADC_CommonInit          0x08005109    0x1c  Code  Gb  stm32f4xx_adc.o [1]
+ADC_Config              0x08003f27    0x90  Code  Gb  main.o [1]
+ADC_Init                0x080050b5    0x40  Code  Gb  stm32f4xx_adc.o [1]
+ADC_RegularChannelConfig
+                        0x08005137    0x78  Code  Gb  stm32f4xx_adc.o [1]
+ADC_SoftwareStartConv   0x080051af     0xa  Code  Gb  stm32f4xx_adc.o [1]
+ADC_StructInit          0x080050f5    0x14  Code  Gb  stm32f4xx_adc.o [1]
+APBAHBPrescTable        0x100004d8    0x10  Data  Lc  stm32f4xx_rcc.o [1]
+ASCII12x12_Table        0x08001358   0x900  Data  Gb  stm324xg_eval_lcd.o [1]
+ASCII16x24_Table        0x08000188  0x11d0  Data  Gb  stm324xg_eval_lcd.o [1]
+ASCII8x12_Table         0x08001c58   0x900  Data  Gb  stm324xg_eval_lcd.o [1]
+BackColor               0x1000001e     0x2  Data  Lc  stm324xg_eval_lcd.o [1]
+BusFault_Handler        0x080056cf     0x2  Code  Gb  stm32f4xx_it.o [1]
+CSTACK$$Base            0x10000560           --   Gb  - Linker created -
+CSTACK$$Limit           0x10000960           --   Gb  - Linker created -
+Camera                  0x1000055c     0x1  Data  Gb  camera_api.o [1]
+Camera_Config           0x08004bb9    0x34  Code  Gb  camera_api.o [1]
+DCMI_CaptureCmd         0x08004c71    0x14  Code  Gb  stm32f4xx_dcmi.o [1]
+DCMI_Cmd                0x08004c5d    0x14  Code  Gb  stm32f4xx_dcmi.o [1]
+DCMI_IRQHandler         0x080056df    0x42  Code  Gb  stm32f4xx_it.o [1]
+DCMI_ITConfig           0x08004c85    0x12  Code  Gb  stm32f4xx_dcmi.o [1]
+DCMI_Init               0x08004c2d    0x30  Code  Gb  stm32f4xx_dcmi.o [1]
+DMA2_Stream1_IRQHandler
+                        0x08005721    0xa6  Code  Gb  stm32f4xx_it.o [1]
+DMA_ClearFlag           0x08004faf    0x1a  Code  Gb  stm32f4xx_dma.o [1]
+DMA_ClearITPendingBit   0x08005033    0x1a  Code  Gb  stm32f4xx_dma.o [1]
+DMA_Cmd                 0x08004f99    0x12  Code  Gb  stm32f4xx_dma.o [1]
+DMA_DeInit              0x08004e89    0xc0  Code  Gb  stm32f4xx_dma.o [1]
+DMA_GetITStatus         0x08004ff5    0x3e  Code  Gb  stm32f4xx_dma.o [1]
+DMA_ITConfig            0x08004fc9    0x2c  Code  Gb  stm32f4xx_dma.o [1]
+DMA_Init                0x08004f49    0x50  Code  Gb  stm32f4xx_dma.o [1]
+DMA_SetCurrDataCounter  0x08004fab     0x4  Code  Gb  stm32f4xx_dma.o [1]
+DebugMon_Handler        0x080056d5     0x2  Code  Gb  stm32f4xx_it.o [1]
+Delay                   0x08004c09     0xc  Code  Gb  camera_api.o [1]
+Delayus                 0x08004375     0xc  Code  Gb  stm324xg_eval_tsc.o [1]
+Demo_LCD_Clear          0x08004bed    0x1c  Code  Gb  camera_api.o [1]
+EXTI2_IRQHandler        0x080056dd     0x2  Code  Gb  stm32f4xx_it.o [1]
+FLASH_ClearFlag         0x08004d73     0x6  Code  Gb  stm32f4xx_flash.o [1]
+FLASH_EraseSector       0x08004cc7    0x66  Code  Gb  stm32f4xx_flash.o [1]
+FLASH_GetStatus         0x08004d79    0x2e  Code  Gb  stm32f4xx_flash.o [1]
+FLASH_Lock              0x08004cbb     0xc  Code  Gb  stm32f4xx_flash.o [1]
+FLASH_ProgramWord       0x08004d2d    0x26  Code  Gb  stm32f4xx_flash.o [1]
+FLASH_Unlock            0x08004ca9    0x12  Code  Gb  stm32f4xx_flash.o [1]
+FLASH_WaitForLastOperation
+                        0x08004dbd    0x1e  Code  Gb  stm32f4xx_flash.o [1]
+FSMC_NORSRAMCmd         0x08002f8b    0x14  Code  Gb  stm32f4xx_fsmc.o [1]
+FSMC_NORSRAMInit        0x08002ed5    0xb6  Code  Gb  stm32f4xx_fsmc.o [1]
+Font12x12               0x100004f0     0x8  Data  Gb  stm324xg_eval_lcd.o [1]
+Font16x24               0x1000002c     0x8  Data  Gb  stm324xg_eval_lcd.o [1]
+Font8x12                0x100004f8     0x8  Data  Gb  stm324xg_eval_lcd.o [1]
+GPIO_CLK                0x080045f4    0x10  Data  Gb  stm324xg_eval.o [1]
+GPIO_Init               0x08002d0d    0x70  Code  Gb  stm32f4xx_gpio.o [1]
+GPIO_PIN                0x080045ec     0x8  Data  Gb  stm324xg_eval.o [1]
+GPIO_PORT               0x100004c8    0x10  Data  Gb  stm324xg_eval.o [1]
+GPIO_PinAFConfig        0x08002d85    0x24  Code  Gb  stm32f4xx_gpio.o [1]
+GPIO_ResetBits          0x08002d81     0x4  Code  Gb  stm32f4xx_gpio.o [1]
+GPIO_SetBits            0x08002d7d     0x4  Code  Gb  stm32f4xx_gpio.o [1]
+GetSector               0x08003fb7    0x9c  Code  Gb  main.o [1]
+HEAP$$Base              0x10000960           --   Gb  - Linker created -
+HEAP$$Limit             0x10000b60           --   Gb  - Linker created -
+HardFault_Handler       0x080056cb     0x2  Code  Gb  stm32f4xx_it.o [1]
+I2C_AcknowledgeConfig   0x08005431    0x14  Code  Gb  stm32f4xx_i2c.o [1]
+I2C_CheckEvent          0x0800544f    0x1a  Code  Gb  stm32f4xx_i2c.o [1]
+I2C_Cmd                 0x080053e5    0x14  Code  Gb  stm32f4xx_i2c.o [1]
+I2C_DeInit              0x080052cd    0x52  Code  Gb  stm32f4xx_i2c.o [1]
+I2C_GenerateSTART       0x080053f9    0x14  Code  Gb  stm32f4xx_i2c.o [1]
+I2C_GenerateSTOP        0x0800540d    0x14  Code  Gb  stm32f4xx_i2c.o [1]
+I2C_Init                0x0800531f    0xb0  Code  Gb  stm32f4xx_i2c.o [1]
+I2C_ReceiveData         0x08005449     0x6  Code  Gb  stm32f4xx_i2c.o [1]
+I2C_Send7bitAddress     0x08005421    0x10  Code  Gb  stm32f4xx_i2c.o [1]
+I2C_SendData            0x08005445     0x4  Code  Gb  stm32f4xx_i2c.o [1]
+ImageForematArray       0x100004e8     0x8  Data  Gb  camera_api.o [1]
+ImageFormat             0x1000055d     0x1  Data  Gb  camera_api.o [1]
+InStream_Read           0x080054e1    0x22  Code  Lc  lz77_init.o [5]
+LCD_Clear               0x08002959    0x24  Code  Gb  stm324xg_eval_lcd.o [1]
+LCD_ClearLine           0x0800292d    0x2c  Code  Gb  stm324xg_eval_lcd.o [1]
+LCD_CtrlLinesConfig     0x08002b61    0xe2  Code  Gb  stm324xg_eval_lcd.o [1]
+LCD_Currentfonts        0x10000028     0x4  Data  Lc  stm324xg_eval_lcd.o [1]
+LCD_DisplayChar         0x08002a49    0x22  Code  Gb  stm324xg_eval_lcd.o [1]
+LCD_DisplayStringLine   0x08002a6b    0x34  Code  Gb  stm324xg_eval_lcd.o [1]
+LCD_DrawChar            0x080029c3    0x86  Code  Gb  stm324xg_eval_lcd.o [1]
+LCD_FSMCConfig          0x08002c69    0x5e  Code  Gb  stm324xg_eval_lcd.o [1]
+LCD_GetFont             0x08002925     0x8  Code  Gb  stm324xg_eval_lcd.o [1]
+LCD_LOG_SetFooter       0x08004689    0x60  Code  Gb  lcd_log.o [1]
+LCD_LOG_SetHeader       0x08004605    0x84  Code  Gb  lcd_log.o [1]
+LCD_SetBackColor        0x0800290d    0x10  Code  Gb  stm324xg_eval_lcd.o [1]
+LCD_SetCursor           0x0800297d    0x38  Code  Gb  stm324xg_eval_lcd.o [1]
+LCD_SetDisplayWindow    0x08002a9f    0x98  Code  Gb  stm324xg_eval_lcd.o [1]
+LCD_SetFont             0x0800291d     0x8  Code  Gb  stm324xg_eval_lcd.o [1]
+LCD_SetTextColor        0x080028fd    0x10  Code  Gb  stm324xg_eval_lcd.o [1]
+LCD_WriteRAM            0x08002b49     0x6  Code  Gb  stm324xg_eval_lcd.o [1]
+LCD_WriteRAM_Prepare    0x08002b41     0x8  Code  Gb  stm324xg_eval_lcd.o [1]
+LCD_WriteReg            0x08002b37     0xa  Code  Gb  stm324xg_eval_lcd.o [1]
+LIS302DLTimeout         0x10000500     0x4  Data  Gb  stm32f4_discovery_lis302dl.o [1]
+LIS302DL_Init           0x08004179    0x20  Code  Gb  stm32f4_discovery_lis302dl.o [1]
+LIS302DL_LowLevel_Init  0x080041f9    0xfe  Code  Lc  stm32f4_discovery_lis302dl.o [1]
+LIS302DL_SendByte       0x08004315    0x4e  Code  Lc  stm32f4_discovery_lis302dl.o [1]
+LIS302DL_Write          0x080041b5    0x2e  Code  Gb  stm32f4_discovery_lis302dl.o [1]
+MemManage_Handler       0x080056cd     0x2  Code  Gb  stm32f4xx_it.o [1]
+NMI_Handler             0x080056c9     0x2  Code  Gb  stm32f4xx_it.o [1]
+NVIC_Init               0x08005473    0x58  Code  Gb  misc.o [1]
+NVIC_PriorityGroupConfig
+                        0x08005469     0xa  Code  Gb  misc.o [1]
+OV9655_BrightnessConfig
+                        0x08004ddd     0x4  Code  Gb  dcmi_ov9655.o [1]
+OV9655_Camera_ID        0x10000504     0x4  Data  Gb  main.o [1]
+OV9655_WriteReg         0x08004de1    0x90  Code  Gb  dcmi_ov9655.o [1]
+OV9712_Camera_ID        0x10000508     0x4  Data  Gb  main.o [1]
+OV9712_HW_Init          0x080046f1   0x13e  Code  Gb  dcmi_ov9712.o [1]
+OV9712_Init             0x08004881    0xfe  Code  Gb  dcmi_ov9712.o [1]
+OV9712_QQVGA            0x100001f4   0x130  Data  Lc  dcmi_ov9712.o [1]
+OV9712_QQVGAConfig      0x0800498f    0x16  Code  Gb  dcmi_ov9712.o [1]
+OV9712_QVGA             0x10000324   0x130  Data  Lc  dcmi_ov9712.o [1]
+OV9712_QVGAConfig       0x080049a5    0x14  Code  Gb  dcmi_ov9712.o [1]
+OV9712_ReadID           0x0800485b    0x26  Code  Gb  dcmi_ov9712.o [1]
+OV9712_ReadReg          0x08004a6d    0xd8  Code  Gb  dcmi_ov9712.o [1]
+OV9712_WriteReg         0x080049d5    0x90  Code  Gb  dcmi_ov9712.o [1]
+OutStream_Write         0x08005503    0x40  Code  Lc  lz77_init.o [5]
+PendSV_Handler          0x080056d7     0x2  Code  Gb  stm32f4xx_it.o [1]
+RCC_AHB1PeriphClockCmd  0x08002e29    0x12  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_AHB2PeriphClockCmd  0x08002e3b    0x12  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_AHB3PeriphClockCmd  0x08002e4d    0x12  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_APB1PeriphClockCmd  0x08002e5f    0x12  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_APB1PeriphResetCmd  0x08002e83    0x12  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x08002e71    0x12  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_APB2PeriphResetCmd  0x08002e95    0x12  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_Clocks              0x1000050c    0x10  Data  Gb  main.o [1]
+RCC_GetClocksFreq       0x08002da9    0x80  Code  Gb  stm32f4xx_rcc.o [1]
+RD_AD                   0x080044ad    0x58  Code  Lc  stm324xg_eval_tsc.o [1]
+Read_X                  0x08004509     0x6  Code  Gb  stm324xg_eval_tsc.o [1]
+Read_Y                  0x0800450f     0x4  Code  Gb  stm324xg_eval_tsc.o [1]
+Region$$Table$$Base     0x08005968           --   Gb  - Linker created -
+Region$$Table$$Limit    0x08005994           --   Gb  - Linker created -
+ReverseLCD              0x08002cc7    0x12  Code  Gb  stm324xg_eval_lcd.o [1]
+SPI_Cmd                 0x08005265    0x14  Code  Gb  stm32f4xx_spi.o [1]
+SPI_I2S_DeInit          0x080051c9    0x58  Code  Gb  stm32f4xx_spi.o [1]
+SPI_I2S_GetFlagStatus   0x08005281     0xe  Code  Gb  stm32f4xx_spi.o [1]
+SPI_I2S_ReceiveData     0x08005279     0x4  Code  Gb  stm32f4xx_spi.o [1]
+SPI_I2S_SendData        0x0800527d     0x4  Code  Gb  stm32f4xx_spi.o [1]
+SPI_Init                0x08005221    0x38  Code  Gb  stm32f4xx_spi.o [1]
+STM324xG_LCD_Init       0x08002559   0x398  Code  Gb  stm324xg_eval_lcd.o [1]
+STM_EVAL_LEDInit        0x08004571    0x32  Code  Gb  stm324xg_eval.o [1]
+STM_EVAL_LEDOff         0x080045b7    0x14  Code  Gb  stm324xg_eval.o [1]
+STM_EVAL_LEDOn          0x080045a3    0x14  Code  Gb  stm324xg_eval.o [1]
+SVC_Handler             0x080056d3     0x2  Code  Gb  stm32f4xx_it.o [1]
+SysTick_Handler         0x080056d9     0x4  Code  Gb  stm32f4xx_it.o [1]
+SystemInit              0x080057ed    0xfe  Code  Gb  system_stm32f4xx.o [1]
+TP_GetAdXY              0x08004521    0x16  Code  Gb  stm324xg_eval_tsc.o [1]
+TSC_Init                0x08004381    0xc4  Code  Gb  stm324xg_eval_tsc.o [1]
+TSC_TouchDet            0x08004537    0x10  Code  Gb  stm324xg_eval_tsc.o [1]
+TextColor               0x1000001c     0x2  Data  Lc  stm324xg_eval_lcd.o [1]
+TimingDelay             0x10000554     0x4  Data  Lc  camera_api.o [1]
+TimingDelay_Decrement   0x08004c15     0xe  Code  Gb  camera_api.o [1]
+UsageFault_Handler      0x080056d1     0x2  Code  Gb  stm32f4xx_it.o [1]
+ValueMax                0x1000055e     0x1  Data  Gb  camera_api.o [1]
+WR_CMD                  0x08004445    0x68  Code  Lc  stm324xg_eval_tsc.o [1]
+_EncodingSb_Mbtowc      0x08003a3b    0x30  Code  Gb  xencoding_sb.o [3]
+_EncodingSb_Wctomb      0x08003a21    0x1a  Code  Gb  xencoding_sb.o [3]
+_IsdstStr               0x10000458     0x4  Data  Gb  setlocale.o [3]
+_LitobSmall             0x08003637    0xce  Code  Lc  xprintfsmall.o [3]
+_LocaleEncoding         0x08003a0d     0xe  Code  Gb  setlocale.o [3]
+_LocaleReturnString     0x10000478    0x50  Data  Lc  setlocale.o [3]
+_Locale_Profile         0x1000045c    0x1c  Data  Gb  setlocale.o [3]
+_Mbtowc                 0x0800374d    0x20  Code  Gb  xmbtowc.o [3]
+_PrintfSmall            0x08002fad   0x430  Code  Gb  xprintfsmall.o [3]
+_PutcharsSmall          0x08003705    0x2e  Code  Lc  xprintfsmall.o [3]
+_PutstrSmall            0x080033e7   0x250  Code  Lc  xprintfsmall.o [3]
+_SProut                 0x080037db     0xa  Code  Gb  xsprout.o [3]
+_TzoneStr               0x10000454     0x4  Data  Gb  setlocale.o [3]
+_Wctomb                 0x080038f9    0x1a  Code  Gb  xwctomb.o [3]
+__aeabi_memset4         0x08005291          Code  Gb  ABImemset48.o [5]
+__aeabi_memset8         0x08005291          Code  Gb  ABImemset48.o [5]
+__cmain                 0x080059b1          Code  Gb  cmain.o [5]
+__data_Aldata           0x1000054c     0x8  Data  Gb  xxmemxmalloc.o [3]
+__data_GetMemChunk      0x08003a81    0x2c  Code  Gb  xgetmemchunk.o [3]
+__exit                  0x080056b5    0x14  Code  Gb  exit.o [6]
+__iar_Mbcurmax          0x0800383d     0xa  Code  Gb  xmbcurmax.o [3]
+__iar_Memchr            0x080037e5          Code  Gb  memchr.o [5]
+__iar_Memset4_word      0x08005299          Code  Gb  ABImemset48.o [5]
+__iar_Memset8_word      0x08005299          Code  Gb  ABImemset48.o [5]
+__iar_Strchr            0x0800376d          Code  Gb  strchr.o [5]
+__iar_data_init3        0x08005941    0x28  Code  Gb  data_init.o [5]
+__iar_dlib_perthread_access
+                        0x08003aad     0x2  Code  Gb  xtls.o [3]
+__iar_init_vfp          0x08005995          Code  Gb  fpinit_M.o [4]
+__iar_lz77_init3        0x08005543   0x16a  Code  Gb  lz77_init.o [5]
+__iar_program_start     0x080059f1          Code  Gb  cstartup_M.o [5]
+__iar_unaligned___aeabi_memcpy
+                        0x08003915          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy4
+                        0x08003935          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy8
+                        0x08003935          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_zero_init3        0x08003783    0x22  Code  Gb  zero_init3.o [5]
+__low_level_init        0x080059cb     0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000          Data  Gb  startup_stm32f4xx.o [1]
+_call_main              0x080059bd          Code  Gb  cmain.o [5]
+_exit                   0x080059d5          Code  Gb  cexit.o [5]
+_main                   0x080059c7          Code  Gb  cmain.o [5]
+abort                   0x080056ad     0x6  Code  Gb  abort.o [3]
+bShot                   0x10000520     0x4  Data  Gb  main.o [1]
+buffer                  0x10000524    0x28  Data  Gb  main.o [1]
+datablock               0x1000051c     0x4  Data  Gb  main.o [1]
+delay                   0x08002cd9    0x20  Code  Lc  stm324xg_eval_lcd.o [1]
+exit                    0x080059cf     0x4  Code  Gb  exit.o [3]
+free                    0x0800398d    0x7a  Code  Gb  xxmemxfree.o [3]
+hzIndex                 0x10000000    0x1c  Data  Gb  stm324xg_eval_lcd.o [1]
+hzfont                  0x10000034   0x1c0  Data  Gb  stm324xg_eval_lcd.o [1]
+lcdid                   0x10000024     0x4  Data  Gb  stm324xg_eval_lcd.o [1]
+main                    0x08003ab1   0x436  Code  Gb  main.o [1]
+malloc                  0x08003849    0xac  Code  Gb  xxmemxmalloc.o [3]
+memchr                  0x080037e5          Code  Gb  memchr.o [5]
+nLcdType                0x10000020     0x4  Data  Lc  stm324xg_eval_lcd.o [1]
+sprintf                 0x08004b85    0x34  Code  Gb  sprintf.o [3]
+strchr                  0x0800376d          Code  Gb  strchr.o [5]
+strlen                  0x080037a5          Code  Gb  strlen.o [5]
+
+
+[1] = D:\IAR6.5\arm\examples\ST\STM32F4\¶}µoª©\¥Ü¨Òµ{§Ç\À©Õ¹°åÔ´Âë\stm32f4_extboard_periph_examples\Project\STM32F4xx_StdPeriph_Templates_DCMI_v1\EWARM\STM324xG_EVAL\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tlv.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  14 140 bytes of readonly  code memory
+   9 953 bytes of readonly  data memory
+   2 911 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
